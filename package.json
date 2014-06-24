@@ -4,8 +4,8 @@
   "description": "A simple amd native greeter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "mocha"  
+},
   "keywords": [
     "hello-world"
   ],
@@ -16,5 +16,9 @@
   },
   "dependencies": {
     "minimist": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
   }
 }
